@@ -35,3 +35,23 @@ menuIcon.classList.remove('bx-x');
 navBar.classList.remove('active');
 };
 
+//----------------Contact email send with input field----------
+/*function sendEmail(){
+let fullName = document.querySelector('input[name="full_name"]').value;
+let email_id = document.querySelector('input[name="email"]').value;
+let mobileNumber = document.querySelector('input[name="mobile_num"]').value;
+let subject = document.querySelector('input[name="subject"]').value;
+let message = document.querySelector('textarea [name="message"]').value;
+
+Email.send({ 
+    Host: "priyankakushwaha0702.gmail.com", 
+    From: email_id, 
+    Subject: subject, 
+    Body: `Welcome ${fullName} phone number ${mobileNumber} ${message}`,  // send entered values from input box
+  }).then(function (message) { 
+    alert("Mail has been sent successfully") 
+  }); 
+
+
+};*/
+
